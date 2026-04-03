@@ -19,9 +19,9 @@ var tmpl = `
 package {{.dir}}
 
 import (
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
 {{- range $check := .checks}}
-	"honnef.co/go/tools/{{$.dir}}/{{$check}}"
+	"github.com/Le-BlitzZz/go-tools/{{$.dir}}/{{$check}}"
 {{- end}}
 )
 
@@ -40,7 +40,7 @@ package {{.check}}
 import (
 	"testing"
 
-	"honnef.co/go/tools/analysis/lint/testutil"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint/testutil"
 )
 
 func TestTestdata(t *testing.T) {

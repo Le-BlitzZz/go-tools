@@ -1,8 +1,8 @@
 package st1023
 
 import (
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/sharedcheck"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/internal/sharedcheck"
 )
 
 func init() {

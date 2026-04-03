@@ -6,19 +6,19 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/edit"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/edit"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/generated"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/tokenfile"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/internal/passes/buildir"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/inspect"
 )
 
 func CheckRangeStringRunes(pass *analysis.Pass) (any, error) {

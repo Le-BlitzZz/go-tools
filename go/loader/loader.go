@@ -12,11 +12,11 @@ import (
 	"os"
 	"time"
 
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/lintcmd/cache"
+	"github.com/Le-BlitzZz/go-tools/config"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/cache"
 
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/gcexportdata"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 const MaxFileSize = 50 * 1024 * 1024 // 50 MB

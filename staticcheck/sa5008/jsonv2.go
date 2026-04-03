@@ -14,10 +14,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 func validateJSONTag(pass *analysis.Pass, field *ast.Field, tag string) {

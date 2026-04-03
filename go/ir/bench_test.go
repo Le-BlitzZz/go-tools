@@ -3,8 +3,8 @@ package ir_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/packages"
-	"honnef.co/go/tools/go/ir"
+	"github.com/Le-BlitzZz/tools/go/packages"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
 )
 
 func BenchmarkSSA(b *testing.B) {

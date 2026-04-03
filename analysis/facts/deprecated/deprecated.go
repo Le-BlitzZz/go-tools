@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 type IsDeprecated struct{ Msg string }

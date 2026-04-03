@@ -6,13 +6,13 @@ import (
 	"go/token"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/inspect"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

@@ -6,14 +6,14 @@ import (
 	"go/types"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/staticcheck/fakereflect"
-	"honnef.co/go/tools/staticcheck/fakexml"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/staticcheck/fakereflect"
+	"github.com/Le-BlitzZz/go-tools/staticcheck/fakexml"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/inspect"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

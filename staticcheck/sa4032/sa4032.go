@@ -6,12 +6,12 @@ import (
 	"go/build/constraint"
 	"go/constant"
 
-	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/pattern"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/knowledge"
+	"github.com/Le-BlitzZz/go-tools/pattern"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

@@ -5,7 +5,7 @@ import (
 	"go/token"
 	_ "unsafe"
 
-	"golang.org/x/tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/tools/go/ast/astutil"
 )
 
 type Cursor = astutil.Cursor

@@ -11,11 +11,11 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
 
 	//lint:ignore SA1019 go/loader is deprecated, but works fine for our tests
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/loader"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 type Options struct {
@@ -26,7 +26,7 @@ type Options struct {
 // Packages creates an IR program for a set of packages.
 //
 // The packages must have been loaded from source syntax using the
-// golang.org/x/tools/go/packages.Load function in LoadSyntax or
+// github.com/Le-BlitzZz/tools/go/packages.Load function in LoadSyntax or
 // LoadAllSyntax mode.
 //
 // Packages creates an IR package for each well-typed package in the
@@ -48,7 +48,7 @@ func Packages(initial []*packages.Package, mode ir.BuilderMode, opts *Options) (
 // their dependencies.
 //
 // The packages must have been loaded from source syntax using the
-// golang.org/x/tools/go/packages.Load function in LoadAllSyntax mode.
+// github.com/Le-BlitzZz/tools/go/packages.Load function in LoadAllSyntax mode.
 //
 // AllPackages creates an IR package for each well-typed package in the
 // initial list, plus all their dependencies. The resulting list of
@@ -109,7 +109,7 @@ func doPackages(initial []*packages.Package, mode ir.BuilderMode, deps bool, opt
 //
 // The mode parameter controls diagnostics and checking during IR construction.
 //
-// Deprecated: use golang.org/x/tools/go/packages and the Packages
+// Deprecated: use github.com/Le-BlitzZz/tools/go/packages and the Packages
 // function instead; see ir.ExampleLoadPackages.
 func CreateProgram(lprog *loader.Program, mode ir.BuilderMode) *ir.Program {
 	prog := ir.NewProgram(lprog.Fset, mode)

@@ -17,9 +17,9 @@ import (
 	"go/types"
 	"strings"
 
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/staticcheck/fakereflect"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/knowledge"
+	"github.com/Le-BlitzZz/go-tools/staticcheck/fakereflect"
 )
 
 func Marshal(v types.Type) error {

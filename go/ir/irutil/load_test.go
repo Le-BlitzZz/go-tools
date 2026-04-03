@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 const hello = `package main

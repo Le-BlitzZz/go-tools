@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	"golang.org/x/exp/typeparams"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
 )
 
 // NewConst returns a new constant of the specified value and type.

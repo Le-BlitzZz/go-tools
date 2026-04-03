@@ -6,11 +6,11 @@ import (
 	"go/types"
 	"reflect"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/internal/passes/buildir"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 // neverReturnsNilFact denotes that a function's return value will never

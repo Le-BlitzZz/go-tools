@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/internal/diff/myers"
-	"honnef.co/go/tools/lintcmd/runner"
+	"github.com/Le-BlitzZz/go-tools/internal/diff/myers"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/runner"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/txtar"
+	"github.com/Le-BlitzZz/tools/go/expect"
+	"github.com/Le-BlitzZz/tools/txtar"
 )
 
 func CheckSuggestedFixes(t *testing.T, diagnostics []runner.Diagnostic) {

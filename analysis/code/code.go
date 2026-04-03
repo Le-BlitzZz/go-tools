@@ -13,15 +13,15 @@ import (
 	"slices"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/purity"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/pattern"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/generated"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/purity"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/tokenfile"
+	"github.com/Le-BlitzZz/go-tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/knowledge"
+	"github.com/Le-BlitzZz/go-tools/pattern"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 type Positioner interface {

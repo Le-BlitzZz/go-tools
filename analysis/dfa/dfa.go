@@ -11,7 +11,7 @@ import (
 	"sync"
 
 	"golang.org/x/exp/constraints"
-	"honnef.co/go/tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
 )
 
 const debugging = false

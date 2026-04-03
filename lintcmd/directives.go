@@ -3,7 +3,7 @@ package lintcmd
 import (
 	"strings"
 
-	"honnef.co/go/tools/lintcmd/runner"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/runner"
 )
 
 func parseDirectives(dirs []runner.SerializedDirective) ([]ignore, []diagnostic) {

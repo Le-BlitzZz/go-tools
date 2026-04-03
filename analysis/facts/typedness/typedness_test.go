@@ -3,7 +3,7 @@ package typedness
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
+	"github.com/Le-BlitzZz/tools/go/analysis/analysistest"
 )
 
 func TestTypedness(t *testing.T) {

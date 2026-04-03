@@ -5,7 +5,7 @@ import (
 	"go/token"
 	"os"
 
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/Le-BlitzZz/tools/go/types/objectpath"
 )
 
 type ObjectPath struct {

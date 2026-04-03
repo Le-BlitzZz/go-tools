@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/loader"
+	"github.com/Le-BlitzZz/tools/go/analysis/analysistest"
+	"github.com/Le-BlitzZz/tools/go/expect"
+	"github.com/Le-BlitzZz/tools/go/loader"
 )
 
 func TestObjValueLookup(t *testing.T) {

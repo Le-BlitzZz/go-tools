@@ -22,7 +22,7 @@
 // tools.  It is not intended for machine code generation.
 //
 // The simplest way to create the IR of a package is
-// to load typed syntax trees using golang.org/x/tools/go/packages, then
+// to load typed syntax trees using github.com/Le-BlitzZz/tools/go/packages, then
 // invoke the irutil.Packages helper function. See ExampleLoadPackages
 // and ExampleWholeProgram for examples.
 // The resulting ir.Program contains all the packages and their

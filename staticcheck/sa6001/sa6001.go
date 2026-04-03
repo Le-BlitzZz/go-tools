@@ -4,13 +4,13 @@ import (
 	"go/ast"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/internal/passes/buildir"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

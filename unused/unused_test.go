@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/expect"
+	"github.com/Le-BlitzZz/tools/go/analysis/analysistest"
+	"github.com/Le-BlitzZz/tools/go/expect"
 )
 
 type expectation uint8

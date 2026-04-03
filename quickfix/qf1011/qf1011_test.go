@@ -5,7 +5,7 @@ package qf1011
 import (
 	"testing"
 
-	"honnef.co/go/tools/analysis/lint/testutil"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint/testutil"
 )
 
 func TestTestdata(t *testing.T) {

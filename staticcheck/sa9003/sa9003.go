@@ -3,12 +3,12 @@ package sa9003
 import (
 	"go/ast"
 
-	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/generated"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/internal/passes/buildir"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

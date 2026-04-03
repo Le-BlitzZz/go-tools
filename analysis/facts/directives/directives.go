@@ -3,8 +3,8 @@ package directives
 import (
 	"reflect"
 
-	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
 )
 
 func directives(pass *analysis.Pass) (any, error) {

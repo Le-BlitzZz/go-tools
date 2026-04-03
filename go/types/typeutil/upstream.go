@@ -5,7 +5,7 @@ import (
 	"go/types"
 	_ "unsafe"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/tools/go/types/typeutil"
 )
 
 type MethodSetCache = typeutil.MethodSetCache

@@ -16,11 +16,11 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
 
-	"golang.org/x/tools/go/analysis/analysistest"
+	"github.com/Le-BlitzZz/tools/go/analysis/analysistest"
 	//lint:ignore SA1019 go/loader is deprecated, but works fine for our tests
-	"golang.org/x/tools/go/loader"
+	"github.com/Le-BlitzZz/tools/go/loader"
 )
 
 func TestSwitches(t *testing.T) {

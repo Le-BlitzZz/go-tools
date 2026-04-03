@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/staticcheck/fakereflect"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/staticcheck/fakereflect"
 )
 
 // typeInfo holds details for the xml representation of a type.

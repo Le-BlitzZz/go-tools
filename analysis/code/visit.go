@@ -9,13 +9,13 @@ import (
 	"iter"
 	"slices"
 
-	typeindexanalyzer "honnef.co/go/tools/internal/analysisinternal/typeindex"
-	"honnef.co/go/tools/internal/typesinternal/typeindex"
-	"honnef.co/go/tools/pattern"
+	typeindexanalyzer "github.com/Le-BlitzZz/go-tools/internal/analysisinternal/typeindex"
+	"github.com/Le-BlitzZz/go-tools/internal/typesinternal/typeindex"
+	"github.com/Le-BlitzZz/go-tools/pattern"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/inspect"
+	"github.com/Le-BlitzZz/tools/go/ast/inspector"
 )
 
 var RequiredAnalyzers = []*analysis.Analyzer{inspect.Analyzer, typeindexanalyzer.Analyzer}

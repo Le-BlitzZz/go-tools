@@ -1,11 +1,11 @@
 package s1029
 
 import (
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/internal/passes/buildir"
+	"github.com/Le-BlitzZz/go-tools/internal/sharedcheck"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

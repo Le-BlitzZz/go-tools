@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
 )
 
 // MethodValue returns the Function implementing method sel, building

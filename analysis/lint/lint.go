@@ -8,8 +8,8 @@ import (
 	"go/token"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/tokenfile"
 )
 
 // Analyzer wraps a go/analysis.Analyzer and provides structured documentation.

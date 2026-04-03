@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/generated"
+	"github.com/Le-BlitzZz/go-tools/go/ast/astutil"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 type Options struct {

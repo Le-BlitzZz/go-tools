@@ -14,9 +14,9 @@ import (
 	"go/types"
 	"iter"
 
-	"golang.org/x/tools/go/ast/edge"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/tools/go/ast/edge"
+	"github.com/Le-BlitzZz/tools/go/ast/inspector"
+	"github.com/Le-BlitzZz/tools/go/types/typeutil"
 )
 
 // IsPackageLevel reports whether obj is a package-level symbol.

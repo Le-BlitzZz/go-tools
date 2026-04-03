@@ -127,17 +127,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/go/loader"
-	tsync "honnef.co/go/tools/internal/sync"
-	"honnef.co/go/tools/lintcmd/cache"
-	"honnef.co/go/tools/unused"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/config"
+	"github.com/Le-BlitzZz/go-tools/go/loader"
+	tsync "github.com/Le-BlitzZz/go-tools/internal/sync"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/cache"
+	"github.com/Le-BlitzZz/go-tools/unused"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/types/objectpath"
 )
 
 const sanityCheck = false

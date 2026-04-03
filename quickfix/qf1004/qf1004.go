@@ -5,13 +5,13 @@ import (
 	"go/ast"
 	"go/token"
 
-	"honnef.co/go/tools/analysis/edit"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	typeindexanalyzer "honnef.co/go/tools/internal/analysisinternal/typeindex"
-	"honnef.co/go/tools/internal/typesinternal/typeindex"
+	"github.com/Le-BlitzZz/go-tools/analysis/edit"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
+	typeindexanalyzer "github.com/Le-BlitzZz/go-tools/internal/analysisinternal/typeindex"
+	"github.com/Le-BlitzZz/go-tools/internal/typesinternal/typeindex"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

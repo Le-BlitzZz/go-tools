@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
+	"github.com/Le-BlitzZz/tools/go/ast/astutil"
 )
 
 func IsIdent(expr ast.Expr, ident string) bool {

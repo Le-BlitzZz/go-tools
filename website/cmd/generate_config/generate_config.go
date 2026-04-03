@@ -7,13 +7,13 @@ import (
 	"sort"
 
 	"github.com/BurntSushi/toml"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/quickfix"
-	"honnef.co/go/tools/simple"
-	"honnef.co/go/tools/staticcheck"
-	"honnef.co/go/tools/stylecheck"
-	"honnef.co/go/tools/unused"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/config"
+	"github.com/Le-BlitzZz/go-tools/quickfix"
+	"github.com/Le-BlitzZz/go-tools/simple"
+	"github.com/Le-BlitzZz/go-tools/staticcheck"
+	"github.com/Le-BlitzZz/go-tools/stylecheck"
+	"github.com/Le-BlitzZz/go-tools/unused"
 )
 
 func main() {

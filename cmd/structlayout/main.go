@@ -10,11 +10,11 @@ import (
 	"log"
 	"os"
 
-	"honnef.co/go/tools/go/gcsizes"
-	"honnef.co/go/tools/lintcmd/version"
-	st "honnef.co/go/tools/structlayout"
+	"github.com/Le-BlitzZz/go-tools/go/gcsizes"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/version"
+	st "github.com/Le-BlitzZz/go-tools/structlayout"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 var (

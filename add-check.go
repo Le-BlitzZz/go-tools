@@ -18,9 +18,9 @@ var tmpl = `
 package {{.lname}}
 
 import (
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
 
-	"golang.org/x/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

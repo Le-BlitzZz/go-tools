@@ -7,15 +7,15 @@ import (
 	"go/types"
 	"go/version"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/edit"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
+	"github.com/Le-BlitzZz/go-tools/analysis/code"
+	"github.com/Le-BlitzZz/go-tools/analysis/edit"
+	"github.com/Le-BlitzZz/go-tools/analysis/facts/generated"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/analysis/report"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/inspect"
+	"github.com/Le-BlitzZz/tools/go/ast/inspector"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

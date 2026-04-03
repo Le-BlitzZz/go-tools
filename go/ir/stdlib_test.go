@@ -18,10 +18,10 @@ package ir_test
 import (
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 func TestStdlib(t *testing.T) {

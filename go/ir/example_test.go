@@ -16,10 +16,10 @@ import (
 	"os"
 	"strings"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Le-BlitzZz/tools/go/packages"
 )
 
 const hello = `
@@ -37,7 +37,7 @@ func main() {
 // This program demonstrates how to run the IR builder on a single
 // package of one or more already-parsed files.  Its dependencies are
 // loaded from compiler export data.  This is what you'd typically use
-// for a compiler; it does not depend on golang.org/x/tools/go/loader.
+// for a compiler; it does not depend on github.com/Le-BlitzZz/tools/go/loader.
 //
 // It shows the printed representation of packages, functions, and
 // instructions.  Within the function listing, the name of each
@@ -50,7 +50,7 @@ func main() {
 //
 // Build and run the irdump.go program if you want a standalone tool
 // with similar functionality. It is located at
-// honnef.co/go/tools/internal/cmd/irdump.
+// github.com/Le-BlitzZz/go-tools/internal/cmd/irdump.
 func Example_buildPackage() {
 	// Parse the source files.
 	fset := token.NewFileSet()

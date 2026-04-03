@@ -14,10 +14,10 @@ import (
 	"go/types"
 	"reflect"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/ctrlflow"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/analysis/passes/ctrlflow"
 )
 
 var Debug = struct {

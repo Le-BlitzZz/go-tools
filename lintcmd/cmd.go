@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/go/loader"
-	"honnef.co/go/tools/lintcmd/version"
+	"github.com/Le-BlitzZz/go-tools/analysis/lint"
+	"github.com/Le-BlitzZz/go-tools/config"
+	"github.com/Le-BlitzZz/go-tools/go/loader"
+	"github.com/Le-BlitzZz/go-tools/lintcmd/version"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/buildutil"
+	"github.com/Le-BlitzZz/tools/go/analysis"
+	"github.com/Le-BlitzZz/tools/go/buildutil"
 )
 
 type buildConfig struct {

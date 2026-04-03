@@ -18,10 +18,10 @@ import (
 	"sort"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Le-BlitzZz/go-tools/go/ir"
+	"github.com/Le-BlitzZz/go-tools/go/ir/irutil"
 
-	"golang.org/x/tools/go/loader"
+	"github.com/Le-BlitzZz/tools/go/loader"
 )
 
 func isEmpty(f *ir.Function) bool { return f.Blocks == nil }

@@ -16,7 +16,7 @@ import (
 	"math/big"
 	"sync"
 
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
 )
 
 const (

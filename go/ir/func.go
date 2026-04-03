@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Le-BlitzZz/go-tools/go/types/typeutil"
 )
 
 // addEdge adds a control-flow graph edge from from to to.
